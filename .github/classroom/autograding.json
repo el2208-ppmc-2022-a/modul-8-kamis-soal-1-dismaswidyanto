@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map1.txt\r\n2",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map1.txt\r\n4",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map2.txt\r\n3",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map2.txt\r\n1",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map3.txt\r\n1",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map3.txt\r\n4",
+      "output": "8",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map4.txt\r\n4",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map4.txt\r\n5",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map5.txt\r\n2",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "map5.txt\r\n4",
+      "output": "7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
